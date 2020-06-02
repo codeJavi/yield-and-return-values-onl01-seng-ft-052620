@@ -1,5 +1,3 @@
-require 'pry'
-
 def hello(array)
   i = 0 
   collection = []
@@ -8,6 +6,7 @@ def hello(array)
     yield(array[i])
     i += 1
   end
+  collection 
 end
 
 
